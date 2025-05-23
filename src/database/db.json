@@ -1,51 +1,51 @@
 {
   "application": {
-    "name": "The wedding of Saiful & Cindy",
-    "description": "The wedding of Saiful & Cindy. Selasa, 16 Mei 2023",
+    "name": "The wedding of Nagaraj & Habi",
+    "description": "The wedding of Nagaraj & Habi. Wednesday, 28 may 2025",
     "version": "1.0.0"
   },
   "wedding": {
     "akad": {
-      "tanggal": "Senin, 15 Mei 2023",
-      "jam": "08.00 WIB - Selesai",
-      "lokasi": "Kediaman mempelai wanita",
-      "alamat": "Jl. H. Nurleman RT. 002 RW. 003, Kel. Benda Baru, Kec. Pamulang, Tangerang Selatan",
+      "tanggal": "Wednesday, 28 may 2025",
+      "jam": "09.00 AM - 10.00 AM",
+      "lokasi": "Arulmigu sri aathi jeganatha perumal kovil",
+      "alamat": "Devipattinam,Ramanathapuram",
       "gmaps": {
-        "link": "https://maps.app.goo.gl/1kM9KC9m7d477zxD9",
-        "iframeSrc": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d991.3727501079445!2d106.71945762812459!3d-6.330370382891928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMTknNDkuOSJTIDEwNsKwNDMnMTEuOSJF!5e0!3m2!1sid!2sid!4v1681882927364!5m2!1sid!2sid"
+        "link": "https://maps.app.goo.gl/dKzJWXaro6CGHKzKA",
+        "iframeSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3935.317821946437!2d78.8963393!3d9.4810605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b01bbbd22eed119%3A0x6bd2e20d5a6caea8!2sPerumal%20temple%20at%20Devipatnam%20sea!5e0!3m2!1sen!2sin!4v1747891460337!5m2!1sen!2sin"
       }
     },
     "resepsi": {
-      "tanggal": "Selasa, 16 Mei 2023",
-      "jam": "09.00 WIB - Selesai",
-      "lokasi": "Kediaman mempelai wanita",
-      "alamat": "Jl. H. Nurleman RT. 002 RW. 003, Kel. Benda Baru, Kec. Pamulang, Tangerang Selatan",
+      "tanggal": "Wednesday, 28 may 2025",
+      "jam": "4.00 pm - until finished",
+      "lokasi": "groom's residence",
+      "alamat": "vannangundu south ramanathapuram.",
       "gmaps": {
-        "link": "https://maps.app.goo.gl/1kM9KC9m7d477zxD9",
-        "iframeSrc": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d991.3727501079445!2d106.71945762812459!3d-6.330370382891928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMTknNDkuOSJTIDEwNsKwNDMnMTEuOSJF!5e0!3m2!1sid!2sid!4v1681882927364!5m2!1sid!2sid"
+        "link": "https://maps.app.goo.gl/RCn3TmTgn5zRm2RH6",
+        "iframeSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3935.317821946437!2d78.8963393!3d9.4810605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b01bbbd22eed119%3A0x6bd2e20d5a6caea8!2sPerumal%20temple%20at%20Devipatnam%20sea!5e0!3m2!1sen!2sin!4v1747891460337!5m2!1sen!2sin"
       }
     },
     "mempelai": {
       "pria": {
-        "namaDepan": "Saiful",
-        "namaBelakang": "Akbar",
-        "namaPanggilan": "Ipul",
+        "namaDepan": "Nagaraj",
+        "namaBelakang": "M",
+        "namaPanggilan": "nagu",
         "orangTua": {
-          "keterangan": "Putra ketiga dari keluarga",
-          "pria": "H. Murdih bin Mahir",
-          "wanita": "Mutiyah"
+          "keterangan": "first son in the family",
+          "pria": "Muniyasamy",
+          "wanita": "Rani"
         },
         "foto": "/assets/images/mempelai/pria.webp",
         "bg": "rgb(229, 229, 203)"
       },
       "wanita": {
-        "namaDepan": "Cindy",
-        "namaBelakang": "Nadya",
+        "namaDepan": "Habi",
+        "namaBelakang": "M",
         "namaPanggilan": "Cindy",
         "orangTua": {
-          "keterangan": "Putri pertama dari keluarga",
-          "pria": "Cecep Supriyadi",
-          "wanita": "Yanih Nurliani"
+          "keterangan": "second daughter in the family",
+          "pria": "Maarimuthu",
+          "wanita": "Kaleeshwari"
         },
         "foto": "/assets/images/mempelai/wanita.webp",
         "bg": "rgb(213, 206, 163)"

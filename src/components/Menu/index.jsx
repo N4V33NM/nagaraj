@@ -20,22 +20,22 @@ const links = [
     IconMenu: ({ ...rest }) => <HomeTwoToneIcon {...rest} />,
   },
   {
-    title: "Mempelai",
+    title: "Bride&Groom",
     elementId: "mempelai",
     IconMenu: ({ ...rest }) => <FavoriteTwoToneIcon {...rest} />,
   },
   {
-    title: "Tanggal",
+    title: "Date",
     elementId: "tanggal",
     IconMenu: ({ ...rest }) => <CalendarMonthTwoToneIcon {...rest} />,
   },
   {
-    title: "Lokasi",
+    title: "Location",
     elementId: "lokasi",
     IconMenu: ({ ...rest }) => <LocationOnTwoToneIcon {...rest} />,
   },
   {
-    title: "Galeri",
+    title: "Gallery",
     elementId: "galeri",
     IconMenu: ({ ...rest }) => <CollectionsTwoToneIcon {...rest} />,
   },
