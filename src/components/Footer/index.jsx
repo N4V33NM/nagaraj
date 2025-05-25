@@ -27,7 +27,7 @@ const textVariants = {
 };
 
 /**
- * Text variant
+ * Divider variant
  */
 const dividerVariants = {
   hidden: {
@@ -45,12 +45,11 @@ const dividerVariants = {
 };
 
 /**
- * Footer komponen
+ * Footer component
  */
 const Footer = () => {
   const { pria, wanita } = useDB((db) => db.wedding.mempelai);
-  const doaRestu =
-    "Your prayers and blessings mean a lot to us.";
+  const doaRestu = "Your prayers and blessings mean a lot to us.";
   const berbahagia = "We, the happy couple";
 
   return (
@@ -61,7 +60,7 @@ const Footer = () => {
       whileInView="show"
       exit="exit"
       viewport={{ once: true }}
-      py={18}
+      py={10}
     >
       <Container>
         <Grid
@@ -105,7 +104,7 @@ const Footer = () => {
             </Typography>
           </Grid>
 
-          {/* Mempelai pria */}
+          {/* Groom */}
           <Grid item md={6} xs={12}>
             <KeluargaBesar
               title="Groom"
@@ -114,13 +113,39 @@ const Footer = () => {
             />
           </Grid>
 
-          {/* Mempelai wanita */}
+          {/* Bride */}
           <Grid item md={6} xs={12} sx={{ mt: { md: 0, xs: 5 } }}>
             <KeluargaBesar
               title="Bride"
               orangTuaPria={wanita.orangTua.pria}
               orangTuaWanita={wanita.orangTua.wanita}
             />
+          </Grid>
+
+          {/* Modified by line */}
+          <Grid item xs={12} mt={4} mb={2}>
+            <Typography
+              variant="body2"
+              sx={{
+                textAlign: "center",
+                fontSize: 14,
+                color: "#fff", // white text
+              }}
+            >
+              Modified by{" "}
+              <a
+                href="https://instagram.com/cyber.naveen.info"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  color: "#fff", // white link
+                  textDecoration: "none",
+                  fontFamily: "'Courier New', monospace", // custom font
+                }}
+              >
+                @cyber.naveen.info
+              </a>
+            </Typography>
           </Grid>
         </Grid>
       </Container>
